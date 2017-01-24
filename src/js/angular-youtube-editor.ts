@@ -179,5 +179,5 @@ module Minute {
     }
 
     angular.module('AngularYouTubeEditor', ['MinuteFramework', 'youtube-embed', 'rzModule'])
-        .provider("$youtube", AngularYouTubeEditor);
+        .provider("$youtubeEditor", AngularYouTubeEditor);
 }
